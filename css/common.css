@@ -1,0 +1,111 @@
+/* ===== CSS DÙNG CHUNG CHO TẤT CẢ CÁC TRANG ===== */
+/* 1. Thiết lập chung */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.clear {
+    clear: both;
+}
+
+/* 2. Header và menu */
+.header {
+    background-color: #2c3e50;
+    padding: 20px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo a {
+    color: #ffffff;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.menu {
+    float: right;
+    list-style: none;
+    margin-top: 9px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.menu li a:hover {
+    color: #f39c12;
+}
+
+/* 3. Tiêu đề trang con */
+.page-title {
+    background-color: #f39c12;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.page-title h2 {
+    font-size: 30px;
+}
+
+.page-title a {
+    color: #ffffff;
+}
+
+/* 4. Khối nội dung và tiêu đề khối */
+.section {
+    padding: 30px 0;
+}
+
+.section-title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* 5. Nút bấm dùng chung */
+.btn {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: #ffffff;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #c0392b;
+}
+
+/* 6. Footer */
+.footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
