@@ -1,0 +1,43 @@
+/* ===== CSS RIÊNG CHO TRANG GIỚI THIỆU ===== */
+/* Câu chuyện: ảnh bên trái, chữ chạy bên phải */
+.about {
+    padding: 0 20px;
+}
+
+.about-img {
+    float: left;
+    width: 400px;
+    margin-right: 20px;
+    border: 1px solid #dddddd;
+}
+
+.about h3 {
+    color: #2c3e50;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+/* Giá trị cốt lõi: 3 hộp nằm ngang */
+.values {
+    background-color: #ecf0f1;
+}
+
+.value-box {
+    float: left;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-top: 4px solid #f39c12;
+    text-align: center;
+}
+
+.value-box h3 {
+    color: #f39c12;
+    margin-bottom: 5px;
+}
